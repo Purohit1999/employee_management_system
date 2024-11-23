@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Register Employee</h1>
+    <form action="register" method="post" class="card p-4 shadow-sm">
+        <div class="mb-3">
+            <label for="employeeId" class="form-label">Employee ID</label>
+            <input type="number" name="employeeId" id="employeeId" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="employeeName" class="form-label">Name</label>
+            <input type="text" name="employeeName" id="employeeName" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="employeeEmail" class="form-label">Email</label>
+            <input type="email" name="employeeEmail" id="employeeEmail" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="employeePassword" class="form-label">Password</label>
+            <input type="password" name="employeePassword" id="employeePassword" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="employeeSalary" class="form-label">Salary</label>
+            <input type="number" name="employeeSalary" id="employeeSalary" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Register</button>
+    </form>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

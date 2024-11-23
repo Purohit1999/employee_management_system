@@ -1,0 +1,29 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tomcat - Employee Management System" type="com.poratu.idea.plugins.tomcat" singleton="false" show_console_on_std_err="true" show_console_on_std_out="true">
+    <output_file is_save="true" />
+    <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/employee_management_system/employee_management_system/logs/catalina.*" />
+    <log_file alias="Tomcat Manager Log" path="$USER_HOME$/.SmartTomcat/employee_management_system/employee_management_system/logs/manager.*" />
+    <log_file alias="Tomcat Host Manager Log" path="$USER_HOME$/.SmartTomcat/employee_management_system/employee_management_system/logs/host-manager.*" />
+    <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+    <predefined_log_file enabled="true" id="Tomcat Access Log" />
+    <option name="catalinaBase" value="C:\Users\puroh\.SmartTomcat\employee_management_system\employee_management_system" />
+    <option name="contextPath" value="/employee_management_system" />
+    <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+    <option name="envOptions">
+      <map />
+    </option>
+    <option name="extraClassPath" value="" />
+    <option name="tomcatInfo">
+      <TomcatInfo>
+        <option name="name" value="Apache Tomcat/9.0.97" />
+        <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-9.0.97-windows-x64/apache-tomcat-9.0.97" />
+        <option name="version" value="9.0.97.0" />
+      </TomcatInfo>
+    </option>
+    <option name="vmOptions" value="" />
+    <module name="employee_management_system" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
